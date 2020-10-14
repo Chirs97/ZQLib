@@ -6,37 +6,20 @@
 #include "List.h"
 #include "Array.h"
 #include "Stack.h"
+#include "ZString.h"
+#include <cstring>
 
 using namespace std;
 using namespace ZQLib;
 
-class Base
-{
-public:
-    void Print()
-    {
-        cout << "this is Base" << endl;
-    }
-};
-
-class A : public Base
-{
-public:
-    A() {}
-
-    void Print()
-    {
-        cout << "this is A" << endl;
-    }
-};
 
 
 int main()
 {
-    Base* p = new A;
+    ZString s = "ababax";
+    ZString s1 = s.SubString(3, 2);
 
-    p->Print();
-
+    cout << s1.ToCharArray() <<endl;
 
     return 0;
 }

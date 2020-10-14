@@ -6,7 +6,7 @@ CONFIG -= qt
 SOURCES += main.cpp \
     Exception.cpp \
     Object.cpp \
-    MyString.cpp
+    ZString.cpp
 
 HEADERS += \
     Exception.h \
@@ -16,4 +16,4 @@ HEADERS += \
     Pointer.h \
     Stack.h \
     Queue.h \
-    MyString.h
+    ZString.h
