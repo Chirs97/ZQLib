@@ -16,4 +16,6 @@ HEADERS += \
     Pointer.h \
     Stack.h \
     Queue.h \
-    ZString.h
+    ZString.h \
+    Sort.h \
+    Tree.h

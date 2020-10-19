@@ -56,6 +56,11 @@ public:
         return (const_cast<Array<T>&>(*this))[index];
     }
 
+    T* array() const
+    {
+        return this->m_array;
+    }
+
 };
 
 
